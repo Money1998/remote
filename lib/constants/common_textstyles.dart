@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:remote/constants/colors.dart';
 
 const t20WB = TextStyle(
-  fontSize: 20,
-  color: Colors.white,
-  fontFamily: 'Poppins',
-  fontWeight: FontWeight.bold,
-);
+    fontSize: 20,
+    color: Colors.white,
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.bold);
+const t14BlueB =
+    TextStyle(color: Colors.blue, fontSize: 14, fontWeight: FontWeight.bold);
 const t16WB = TextStyle(
   fontSize: 16,
   color: Colors.white,

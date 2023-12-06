@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:remote/commons/shared_pref.dart';
 import 'package:remote/constants/strings.dart';
+import 'package:remote/screens/bottom_nav_screen.dart';
 import 'package:remote/screens/profile/profile_screen.dart';
 import 'package:remote/screens/remote/remote_control_screen.dart';
 
@@ -32,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
           //     ));
         } else {
           Navigator.pushAndRemoveUntil(context, MaterialPageRoute(
-            builder: (context) => const ProfileScreen(),
+            builder: (context) => const BottomNavScreen(),
           ), (route) => false);
         }
       });

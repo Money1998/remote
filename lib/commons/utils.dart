@@ -13,6 +13,15 @@ RoundedRectangleBorder roundedRectangleBorder = RoundedRectangleBorder(
     borderRadius: BorderRadius.circular(15),
     side: const BorderSide(color: lightGrey, width: 0.5));
 
+BoxDecoration bottomBoxDecoration = BoxDecoration(
+  shape: BoxShape.circle,
+  color: Colors.white, // Set the background color inside the circle
+  border: Border.all(
+    color: Colors.blue, // Set the border color of the circle
+    width: 3.0, // Set the border width
+  ),
+);
+
 dynamic returnResponse(http.Response response) {
   switch (response.statusCode) {
     case 200:
